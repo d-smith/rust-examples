@@ -18,3 +18,13 @@ Cargo
 * cargo build, cargo run
 * cargo check - compile check, but does not create executable
 * cargo build --release when building for release
+
+## Crates
+
+* A create is a collection of Rust source code
+* Built projects are binary crates
+* Library creates - crates other programs can use
+    * Declare as dependencies in the toml file
+    * Downloaded fron crates.io
+
+
