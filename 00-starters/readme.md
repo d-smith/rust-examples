@@ -5,6 +5,7 @@
 
 * Use underscores in filenames as needed, e.g. hello_world.rs
 * Use 4 spaces for indent
+* Constants are ALL_UPPER_CASE_WITH_UNDERSCORES
 
 
 ## Tools
