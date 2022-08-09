@@ -17,6 +17,14 @@ fn main() {
 
     // constants - always immutable
     const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
+    println!("3 hours in seconds is {THREE_HOURS_IN_SECONDS}");
 
-    
+    // Shadowing
+    let s = "   ";
+    let s = s.len();
+    println!("s is {s}");
+
+    // Shadowing via mut is not a thing
+    // let mut s2 = "   ";
+    // s2 = s2.len();
 }
