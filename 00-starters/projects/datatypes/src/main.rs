@@ -21,4 +21,8 @@ fn main() {
     println!("{i}");
 
     // Next: floating point types
+
+    let _f: f32 = 1.0;
+    let _f: f64 = 2.0;
+    println!("{_f}");
 }
