@@ -25,4 +25,9 @@ fn main() {
     let _f: f32 = 1.0;
     let _f: f64 = 2.0;
     println!("{_f}");
+
+    // Numeric operators include the usual suspects
+    let _x = 20 + 30 - 40 * 50 / 60 % 70;
+    println!("{_x}");
+
 }
